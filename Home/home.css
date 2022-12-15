@@ -1,0 +1,344 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.box{
+    background:#c0392b ;
+    padding: 2px;
+}
+@font-face {
+    font-family: cambay ;
+    src: url(./Amble-Regular-webfont.ttf);
+}
+.header{
+    background-color: #777;
+}
+.ul1{
+    background: url(./pattern.gif);
+}
+
+.menu1 > ul > li {
+	display: inline-block;
+	position: relative;
+}
+
+.menu1 > ul > li > a {
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	color: #FFF;
+    background-image: url(./pattern.gif);
+	display: block;
+	line-height: 60px;
+	padding: 1px 89.44px;
+	letter-spacing: 1px;
+	font-size: 25px;
+	-webkit-transition: .2s all linear;
+	-moz-transition: .2s all linear;
+	-o-transition: .2s all linear;
+	transition: .2s all linear;
+    text-decoration: none;
+}
+.menu1 > li.active a, .menu1 > ul > li a:hover {
+    color: #000;
+    background: #fff;
+}
+@media only screen and (max-width: 1025px) {
+	.sza{
+		width:100%;
+        padding-right: 0%;
+        padding-left: 0%;
+	}	
+}
+.nav1{
+    font-size: 95px;
+    color: white;
+    height: 130px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    line-height: 170px;
+    font-family: 'Bebas Neue', cursive;
+    background: url(./pattern.gif);
+}
+.mySlides{  
+    width: 100%;
+    height: auto;
+}
+.body1 .div1 {
+    width: 28%;
+    float: left;     
+    padding: 23px;
+    margin-right: 2%;
+    padding-bottom: 50px;
+    font-family: cambay;
+}
+#kute {
+    margin-right: 1px;
+}
+
+.pickabu{
+    padding-top: 35px;
+    color: #000000;
+    font-size:25px;
+    padding-bottom: 10px;
+} 
+.content0{
+    color: #777;
+    padding-top: 10px;
+}
+.yuh{
+    float: left;
+    font-size: 20px;
+    padding: 1 90px;
+}
+.button {
+        background-color: #C0392B; 
+        border: none;
+        color: white;
+        padding: 15px 38px;
+        padding-top: 18px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        line-height: 10px;
+        margin-top: 25px;
+        transition-duration: 0,4s;
+        cursor: pointer;
+      }
+.button:hover{
+    background-color: #000000;
+    color: white;
+}
+@media only screen and (max-width: 1025px) {
+	.body1 .div1{
+		width:50%;
+        padding-left: 100px;
+        display: block;
+    }
+}
+.munu {
+   line-height: 35px;
+   padding-top: 63px;
+   display: inline-block;
+   width: 40%;
+   padding: 5%;
+}
+.bo2 .munu{
+    float: left;
+    font-family: cambay;
+}
+.img{
+    padding-bottom: 15px;
+}
+.yuhh{
+    padding-top: 15px;
+}
+.img1{
+    border: 3px solid #FFF;
+    background: #FFF;
+    box-shadow: 0 0 8px #aaa; 
+    float: left; 
+    margin-right: 15px;   
+    margin-bottom: 80px; 
+}
+.img4{
+    font-size: 20px;
+    color: #000000;
+}
+.img7{
+    font-size: 15px;
+}
+.clearfix{
+    line-height: 40px;
+    clear: both;
+    font-family: cambay;
+}
+@media only screen and (max-width: 800px) {
+        .munu {
+            width:80%;
+            padding-left: 30px;
+            display: block;
+        }
+    }
+    .wrap {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .clear{
+        clear: both;
+    }
+    
+    .footer {
+        background-image: url(./pattern.gif);
+    }
+    
+    .footer-top {
+        padding: 48px 0 24px;
+        border-bottom: 1px solid #363636;
+        display: flex;
+    }
+    
+    .footer-top .content {
+        width: 23.8%;
+        margin: 12px 0 12px 24px;
+        animation: footer-top-content 3s;
+    }
+    
+    @keyframes footer-top-content {
+        from {
+            transform: translate(0, 120px);
+        }
+    
+        to {
+            transform: translate(0, 0);
+        }
+    }
+    
+    .footer .first {
+        list-style: none;
+    }
+    
+    .footer h3 {
+        margin-bottom: 20px;
+        font-size: 1.6em;
+        line-height: 1.2em;
+        letter-spacing: -1px;
+        color: #fff;
+    }
+    
+    .first li {
+        background: url(./footer-icon.png) no-repeat 0 8px;
+        padding: 0 0 15px 18px;
+    }
+    
+    .footer-top p {
+        color: #A0A0A0;
+        line-height: 1.5em;
+    }
+    
+    .footer-top p:hover {
+        color: white;
+        cursor: pointer;
+    }
+    
+    .footer a:hover {
+        cursor: pointer;
+        color: white;
+    }
+    
+    .footer-top .contact {
+        margin: 12px 0 12px 8px;
+        animation: footer-top-contact 3.5s;
+    }
+    
+    @keyframes footer-top-contact {
+        from {
+            transform: translate(0, 120px);
+        }
+    
+        to {
+            transform: translate(0, 0);
+        }
+    }
+    
+    .contact img:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    
+    .contact-icon li {
+        float: left;
+        list-style: none;
+        margin-right: 20px;
+    }
+    
+    .footer-top .content:first-child {
+        margin-left: 0;
+    }
+    
+    .footer-bottom {
+        text-align: center;
+        font-size: 1.1em;
+        text-transform: uppercase;
+        padding: 48px 0;
+    }
+    
+    .footer-bottom a {
+        color: #C0392B;
+    }
+    
+    .footer-bottom p {
+        color: #fff;
+        animation: footer-bottom-p 4s;
+    }
+    
+    @keyframes footer-bottom-p {
+        from {
+            transform: translate(0, 200px);
+        }
+    
+        to {
+            transform: translate(0, 0);
+        }
+    }
+    
+    /* /* Extra small devices (phones, 700px and down) */
+    @media only screen and (max-width: 700px) {
+        .footer-top {
+            display: block;
+            padding: 48px 0 0px 14px;
+        }
+    
+        .footer-top .content {
+            width: 100%;
+            margin: 16px 0;
+        }
+    
+        .footer-bottom {
+            font-size: 10px;
+            padding: 24px 0;
+        }
+    
+        .footer-top .contact {
+            margin: 0;
+        }
+    
+        .contact-icon li {
+            margin-right: 10px;
+        }
+    }
+    /* Medium devices (landscape tablets, 280px and down) */
+    @media only screen and (max-width: 280px) {
+        .footer-bottom {
+            padding: 24px 19px;
+        }
+        .contact-icon li {
+            margin: 10px 23px 0px 0;
+        }
+    }
+    
+    /* Large devices (laptops/desktops, 700px and up) */
+    @media only screen and (min-width: 700px) and (max-width: 1280px) {
+        .footer-top {
+            flex-wrap: wrap;
+            margin-right: -25%;
+        }
+    
+        .footer-top .content {
+            width: 50%;
+            margin: 30px 0 0 0;
+        }
+    
+        .footer-top .contact {
+            margin: 30px 0 0 0;
+        }
+    
+        .contact-icon li {
+            margin-right: 10px;
+        }
+    
+        .footer-bottom {
+            padding: 12px 0 36px 0;
+        }
+    }
